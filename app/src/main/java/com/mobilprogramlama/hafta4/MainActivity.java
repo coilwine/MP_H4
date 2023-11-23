@@ -23,12 +23,10 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 sayi1=Float.parseFloat(edt1.getText().toString()) ;
                 sayi2=Float.parseFloat(edt2.getText().toString()) ;
                 toplam=sayi1+sayi2;
                 edt3.setText(String.valueOf(toplam));
-
             }
         });
     }
